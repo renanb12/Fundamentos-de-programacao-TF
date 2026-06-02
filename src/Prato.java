@@ -35,14 +35,6 @@ public class Prato {
         this.valor = valor;
     }
 
-    public void setVetIngredientes(Ingrediente vetIngredientes) {
-        this.vetIngredientes[0] = vetIngredientes;
-    }
-
-    public void setIndex(int index) {
-        this.index = index;
-    }
-
     public boolean adicionarIngrediente(Ingrediente ingrediente){
         if (index < this.vetIngredientes.length){
             vetIngredientes[index] = ingrediente;
