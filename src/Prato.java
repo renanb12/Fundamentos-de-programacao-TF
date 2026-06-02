@@ -36,7 +36,7 @@ public class Prato {
     }
 
     public boolean adicionarIngrediente(Ingrediente ingrediente){
-        if (index < this.vetIngredientes.length){
+        if (index < vetIngredientes.length){
             vetIngredientes[index] = ingrediente;
             index++;
             return true;
